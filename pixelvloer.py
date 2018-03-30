@@ -19,3 +19,9 @@ strip.begin()
 def zet(positie,r,g,b):
     strip.setPixelColor(positie, Color(r,g,b));
     strip.show()
+
+def zetveel(positie,r,g,b):
+    strip.setPixelColor(positie, Color(r,g,b));
+
+def updatevloer():
+    strip.show()
